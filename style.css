@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana;
+    margin: 0px auto;
+    
+}
+
+.content{
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 120px;
+    padding: 20px;
+}
+.detail-content{
+    margin: 10px;
+    /* border:2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#cantLike {
+    color: darkslategrey
+}
+
+/* botones */
+.btn-burlywood {
+    color: black;
+    background-color: burlywood;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
+    vertical-align: middle;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}

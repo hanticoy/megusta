@@ -1,0 +1,90 @@
+* {
+    font-family: Verdana;
+    margin: 0px auto;
+    
+}
+
+main {
+    border:2px solid black;
+    width: 70%;
+    padding: 0px;
+}
+nav {
+    color: aliceblue;
+    background-color: black;
+    align-items: left;
+    padding: 10px;
+}
+.detail {
+    /* height: 600px;
+    width: 100%; */
+    display: flex;
+    padding: 10px;
+}
+.detail-left {
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid rgb(255, 47, 47); */
+}
+.detail-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border:2px solid rgb(47, 50, 255); */
+}
+footer {
+    background-color: darkgrey; 
+    width: 100%;
+    margin: 0px;
+}
+
+.content{
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+.detail-content{
+    margin: 10px;
+    /* border:2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+.detail-content-vert {
+    margin: 10px;
+    /* border:2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#cantLike1 {
+    color: darkslategrey
+}
+#cantLike2 {
+    color: darkslategrey
+}
+#cantLike3 {
+    color: darkslategrey
+}
+
+u {
+    color: cornflowerblue;
+}
+
+/* botones */
+.btn-burlywood {
+    color: black;
+    background-color: burlywood;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
+    vertical-align: middle;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
